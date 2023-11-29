@@ -73,3 +73,35 @@ scala.meta.tokenizers.TokenizeException: <input>:27: error: unclosed quoted iden
 INFO: Unsupported notification method: $/setTrace
 2023.11.29 15:21:55 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\1\Main.scala
 2023.11.29 15:22:06 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\1\Main.scala
+2023.11.29 15:26:08 INFO  Shutting down server
+2023.11.29 15:26:08 INFO  shutting down Metals
+2023.11.29 15:26:08 INFO  Exiting server
+2023.11.29 15:53:04 INFO  Started: Metals version 1.1.0 in folders 'D:\Моё\Учёба\Java\Scala' for client Visual Studio Code 1.84.2.
+2023.11.29 15:53:06 WARN  Build server is not auto-connectable.
+2023.11.29 15:53:06 WARN  no build tool detected in workspace 'D:\Моё\Учёба\Java\Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.11.29 15:53:06 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\1\Main.scala
+2023.11.29 15:53:10 INFO  no build target found for D:\Моё\Учёба\Java\Scala\tasks\scala\1\Main.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.29 15:53:11 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\2\src\main\scala\funsets\FunSets.scala
+2023.11.29 15:53:13 INFO  time: code lens generation in 6.76s
+2023.11.29 15:53:13 INFO  time: code lens generation in 1.1s
+нояб. 29, 2023 3:53:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 88
+2023.11.29 15:55:16 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\2\src\main\scala\funsets\FunSets.scala
+2023.11.29 15:55:19 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\2\src\main\scala\funsets\Main.scala
+2023.11.29 15:55:26 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\2\src\main\scala\funsets\Main.scala
+2023.11.29 15:55:40 INFO  Shutting down server
+2023.11.29 15:55:40 INFO  shutting down Metals
+2023.11.29 15:55:40 INFO  Exiting server
+2023.11.29 16:47:18 INFO  Started: Metals version 1.1.0 in folders 'D:\Моё\Учёба\Java\Scala' for client Visual Studio Code 1.84.2.
+2023.11.29 16:47:20 WARN  Build server is not auto-connectable.
+2023.11.29 16:47:20 WARN  no build tool detected in workspace 'D:\Моё\Учёба\Java\Scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.11.29 16:47:20 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\2\src\main\scala\funsets\FunSets.scala
+2023.11.29 16:47:23 INFO  no build target found for D:\Моё\Учёба\Java\Scala\tasks\scala\2\src\main\scala\funsets\FunSets.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.29 16:47:24 INFO  time: code lens generation in 4.74s
+2023.11.29 16:47:34 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\2\src\main\scala\funsets\Main.scala
+2023.11.29 16:49:12 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\1\Main.scala
+2023.11.29 16:50:35 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\2\src\main\scala\funsets\Main.scala
+2023.11.29 16:50:36 WARN  no build target for: D:\Моё\Учёба\Java\Scala\tasks\scala\2\src\main\scala\funsets\FunSets.scala
+2023.11.29 16:52:43 INFO  Shutting down server
+2023.11.29 16:52:43 INFO  shutting down Metals
+2023.11.29 16:52:43 INFO  Exiting server
