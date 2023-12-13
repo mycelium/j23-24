@@ -30,14 +30,7 @@ object FunSets {
         iter(-bound)
     }
 
-    def exists(s: Set, p: Int => Boolean): Boolean = {
-        def iter(a: Int): Boolean = {
-            if (a > bound) false
-            else if (contains(s, a) && p(a)) true
-            else iter(a + 1)
-        }
-        iter(-bound)
-    }
+    def exists(s: Set, p: Int => Boolean): Boolean = !forall(s, (x: Int) => !p(x))
 
     def map(s: Set, f: Int => Int): Set = (n) => exists(s, (y: Int) => f(y) == n)
 
