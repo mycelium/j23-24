@@ -24,7 +24,7 @@ object Main {
     println("Exercise 3. Counting Change")
     println(countChange(0, List(1, 2, 3))) // should be 1 // No change needed
     println(countChange(5, List(1, 2, 5))) // should be 4 // [1, 1, 1, 1, 1], [1, 1, 1, 2], [1, 2, 2], [5]
-    println(countChange(10, List(2, 5, 10))) // should be 4 // [2, 2, 2, 2, 2], [2, 2, 2, 5], [2, 2, 5, 1], [10]
+    println(countChange(10, List(2, 5, 10))) // should be 3 // [2, 2, 2, 2, 2], [2, 2, 5, 1], [10]
     println(countChange(4, List(1, 2, 3))) // should be 4 // [1, 1, 1, 1], [1, 1, 2], [1, 3], [2, 2]
   }
 
