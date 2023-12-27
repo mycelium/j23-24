@@ -52,4 +52,22 @@ object Main {
         }
       }
     }
+
+    /**
+     * Exercise 3 Counting Change
+     * Write a recursive function that counts how many different ways you can make
+     * change for an amount, given a list of coin denominations. For example,
+     * there is 1 way to give change for 5 if you have coins with denomiation
+     * 2 and 3: 2+3.
+     */
+    def countChange(money: Int, coins: List[Int]): Int = {
+      if (money == 0) 1
+      else if (money < 0) assert(false)
+      else
+        val c = coins.filter(_ <= money)
+        c match {
+          case Nil => 0
+          case ::(head, tail) => countChange(money - head, c) + countChange(money, tail)
+        }
+    }
   }

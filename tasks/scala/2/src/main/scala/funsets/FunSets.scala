@@ -67,8 +67,7 @@ object FunSets {
       else if (s(a) & !p(a)) false //<=> return false if EXISTS integer that !p
       else iter(a + 1)
     }
-
-    iter(-1000)
+    iter(-bound)
   }
 
   /**
@@ -80,15 +79,7 @@ object FunSets {
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
    */
-  def map(s: Set, f: Int => Int): Set = {
-    def iter(a: Int): Set = {
-      if (a == bound) singletonSet(f(a))
-      else if (s(a)) union(singletonSet(f(a)), iter(a + 1))
-      else iter(a + 1)
-    }
-
-    iter(-bound)
-  }
+  def map(s: Set, f: Int => Int): Set = x => exists(s, x == f(_))
 
   /**
    * Displays the contents of a set
