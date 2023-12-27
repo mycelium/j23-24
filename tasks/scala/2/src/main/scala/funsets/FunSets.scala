@@ -5,7 +5,7 @@ import common._
 /**
  * 2. Purely Functional Sets.
  */
-object object FunSets {
+object FunSets {
   /**
    * We represent a set by its characteristic function, i.e.
    * its `contains` predicate.
