@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/j23-24.iml" filepath="$PROJECT_DIR$/.idea/j23-24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lessons/java/j24_echoclient/j24_echoclient.iml" filepath="$PROJECT_DIR$/lessons/java/j24_echoclient/j24_echoclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lessons/java/j24_echoserver/j24_echoserver.iml" filepath="$PROJECT_DIR$/lessons/java/j24_echoserver/j24_echoserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lessons/java/j24_m1/j24_m1.iml" filepath="$PROJECT_DIR$/lessons/java/j24_m1/j24_m1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lessons/java/j24_m2/j24_m2.iml" filepath="$PROJECT_DIR$/lessons/java/j24_m2/j24_m2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lessons/java/j24_nio/j24_nio.iml" filepath="$PROJECT_DIR$/lessons/java/j24_nio/j24_nio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lessons/java/lessons.iml" filepath="$PROJECT_DIR$/lessons/java/lessons.iml" />
+    </modules>
+  </component>
+</project>
